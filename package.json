@@ -1,0 +1,21 @@
+{
+  "name": "story-email-export-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Email-safe HTML export for photo stories (circle images, fixed sizes, Outlook-safe tables) and a safe 30-day media cleanup job, with tests.",
+  "scripts": {
+    "test": "vitest run",
+    "sample": "tsx scripts/sample.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
+}
